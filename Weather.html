@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Weather.css">
+	<title>Weather CLone</title>
+</head>
+<body>
+<div class="container">
+	<div class="main">
+	<h2 align="center"> WEATHER FORECAST</h2><br><br>
+	<div>
+	<label for="city"> Enter a City Name:</label>
+	<input type="text" id="cityname" required>
+	<button type="button" onclick="fetchData()"> FETCH </button>	
+	</div>
+	<br>
+<div>
+<span><b>City: </b><span id="city"></span></span><br>
+<span><b>Description: </b><span id="desc"></span></span><br>
+<span><b>WindSpeed: </b><span id="ws"></span></span><br>
+<span><b>Temperature: </b><span id="temp"></span></span><br>
+<span><b>Humidity: </b><span id="hum"></span></span><br>
+</div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="Weather.js"></script>
+</html>

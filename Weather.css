@@ -1,0 +1,41 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container
+{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+/*	background-image: linear-gradient(to right, blue,skyblue,cyan);*/
+	background-image: url('https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main
+{
+	height: 250px;
+	width: 400px;
+	background-color: whitesmoke;
+	background-color: transparent;
+	border: solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+.main: hover
+{
+animation-delay: 3s;
+}
+
+#cityname
+{
+	border: none;
+	outline: none;
+	border-bottom: 3px solid red;
+}
